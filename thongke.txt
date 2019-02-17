@@ -1,0 +1,89 @@
+void in_thong_ke(ThongKe tk[], int count)
+{
+	int tong = stt, xuatsac = 0, gioi = 0, kha = 0, TB = 0, yeu = 0;
+	int i = 0;
+	for (int j = 0; j <= count; j++)
+	{
+		gotoxy(37, 8 + i); cout << tk[j].stt + 1;
+		gotoxy(44, 8 + i); cout << tk[j].malop;
+		gotoxy(58, 8 + i); cout << tk[j].tong;
+		gotoxy(68, 8 + i); cout << tk[j].xuat_sac;
+		gotoxy(79, 8 + i); cout << tk[j].gioi;
+		gotoxy(90, 8 + i); cout << tk[j].kha;
+		gotoxy(101, 8 + i); cout << tk[j].TB;
+		gotoxy(112, 8 + i); cout << tk[j].yeu;
+		i = i + 2;
+		xuatsac += tk[j].xuat_sac;
+		gioi += tk[j].gioi;
+		kha += tk[j].kha;
+		TB += tk[j].TB;
+		yeu += tk[j].yeu;
+	}
+
+	gotoxy(58, 27); cout << tong; 
+	gotoxy(68, 27); cout << xuatsac;
+	gotoxy(79, 27); cout << gioi;
+	gotoxy(90, 27); cout << kha;
+	gotoxy(101, 27); cout << TB;
+	gotoxy(112, 27); cout << yeu;
+	gotoxy(0, 0);
+}
+void kiem_tra_diem(float diem, int &xuat_sac, int &gioi, int &kha, int &TB, int &yeu, int &soSV)
+{
+	soSV++;
+	if (diem >= 9) xuat_sac++;
+	if (diem >= 8 && diem <9 ) gioi++;
+	if (diem >= 7 && diem < 8) kha++;
+	if (diem >= 6 && diem < 7) TB++;
+	if (diem < 6) yeu++;
+
+}
+void tim_Hoc_Luc_SV(List list)
+{
+	int stt = 0; //so thu tu trong mang
+	int count = 0;//phan tu mang
+	Node *x = list.head;
+	ThongKe tk[100];
+loop:int xuat_sac = 0, gioi = 0, kha = 0, TB = 0, yeu = 0;
+	int so_luong_SV = 0;
+	char *c = x->data.MaLop;
+	kiem_tra_diem(x->data.DiemTB, xuat_sac, gioi, kha, TB, yeu,so_luong_SV);
+	x = x->next;
+	
+	while (x != NULL)
+	{
+		if (strcmp(c, x->data.MaLop) == 0)
+		{
+			kiem_tra_diem(x->data.DiemTB, xuat_sac, gioi, kha, TB, yeu, so_luong_SV);
+			if(x == list.tail) tk[count] = { stt,c,so_luong_SV,xuat_sac,gioi,kha,TB, yeu };
+		}
+		else
+		{
+
+			tk[count] = { stt,c,so_luong_SV,xuat_sac,gioi,kha,TB, yeu };
+			count++;
+			stt++;
+			goto loop;
+		}
+		x = x->next;
+	}
+	
+	in_thong_ke(tk,count);
+	
+}
+void thong_ke(List list)
+{
+	List l1;
+	Init(l1);
+	int temp = stt;
+	int temp_i = i;
+	Node *x = list.head;
+	while (x != NULL)
+	{
+		sap_xep_ML(l1, x->data);
+		x = x->next;
+	}
+	i = temp_i;
+	stt = temp;
+	tim_Hoc_Luc_SV(l1);
+}
