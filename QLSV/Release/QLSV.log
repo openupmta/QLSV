@@ -1,0 +1,47 @@
+﻿  pch.cpp
+C:\Users\tien\source\repos\QLSV\QLSV\pch.h(37): warning C4091: 'typedef ': ignored on left of 'ThongKe' when no variable is declared
+C:\Users\tien\source\repos\QLSV\QLSV\pch.h(45): warning C4091: 'typedef ': ignored on left of 'DataType' when no variable is declared
+C:\Users\tien\source\repos\QLSV\QLSV\pch.h(52): warning C4091: 'typedef ': ignored on left of 'Node' when no variable is declared
+C:\Users\tien\source\repos\QLSV\QLSV\pch.h(57): warning C4091: 'typedef ': ignored on left of 'List' when no variable is declared
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(41): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(916): warning C4309: 'initializing': truncation of constant value
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(917): warning C4309: 'initializing': truncation of constant value
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(918): warning C4309: 'initializing': truncation of constant value
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(957): warning C4309: 'initializing': truncation of constant value
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(970): warning C4309: 'initializing': truncation of constant value
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(1008): warning C4309: 'initializing': truncation of constant value
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(1009): warning C4309: 'initializing': truncation of constant value
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(1010): warning C4309: 'initializing': truncation of constant value
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(1238): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(1271): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(1485): warning C4018: '<': signed/unsigned mismatch
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(1513): warning C4018: '<': signed/unsigned mismatch
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(1618): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(1733): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(1847): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(1849): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(1868): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(1984): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2018): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2146): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2180): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2219): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2253): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2199): warning C4101: 'from': unreferenced local variable
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2199): warning C4101: 'to': unreferenced local variable
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2292): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2326): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2272): warning C4101: 'from': unreferenced local variable
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2272): warning C4101: 'to': unreferenced local variable
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2364): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2398): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2345): warning C4101: 'from': unreferenced local variable
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2345): warning C4101: 'to': unreferenced local variable
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2444): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tien\source\repos\QLSV\QLSV\pch.cpp(2478): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating code
+  0 of 1035 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  QLSV.vcxproj -> C:\Users\tien\source\repos\QLSV\Release\QLSV.exe

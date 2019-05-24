@@ -1,0 +1,40 @@
+Ma Lop     MSV      Ho Va Ten                Ngay Sinh       Diem TB
+CNTT11    17150116  Tran Thi F               6 /6 /1993      8
+CNTT11    17150115  Tran Thi E               5 /5 /1994      9
+CNTT11    17150114  Tran Thi D               5 /5 /1995      7
+CNTT11    17150113  Tran Thi C               4 /3 /1993      5
+CNTT13    15150111  Tran Thi B               3 /4 /1995      3
+CNTT13    17150110  Tran Thi A               3 /4 /1994      8
+CNTT17    17150139  Nguyen Dinh Tuyen        10/4 /1995    9.7
+CNTT17    17150136  Tran Thai Bao            10/3 /1995      3
+CNTT16    17150131  Nguyen Thi Phuong        4 /4 /1999      7
+CNTT16    17150186  Tran Thi An              19/4 /1999      1
+CNTT15    17150176  Dang Quang Son           10/10/1993      2
+CNTT17    17150121  Nguyen Huu Son           19/5 /1992      4
+CNTT16    17150123  Ta Huu Son               6 /4 /1999      3
+CNTT16    17150187  Nguyen Huu Thinh         10/5 /1999     10
+CNTT16    17150196  Nguyen Huu Tien          18/5 /1999     10
+CNTT17    17150197  Nguyen Mai Hoa           18/5 /1998    9.9
+CNTT16    17150138  Nguyen Huu Tien          18/5 /1999    9.8
+CNTT14    17150198  Bui Thi Hien             10/5 /1999    9.7
+CNTT14    17150194  Bui Cong Son             10/3 /1999    9.6
+CNTT15    17150195  Tran Van Thanh           11/3 /1999    9.5
+CNTT14    17150155  Nguyen Thanh Tung        4 /4 /1995      9
+CNTT14    17150167  Pham Van Dang            5 /6 /1998      9
+CNTT17    17150133  Ngo Thi Nhu Y            10/10/1999      9
+CNTT13    17150177  Le Xuan Loc              3 /4 /1995    8.8
+CNTT16    17150141  Sa Van Son               5 /6 /1997    8.8
+CNTT16    17150166  Nguyen Thi Duong         5 /5 /1994      8
+CNTT16    17150345  Nguyen Duc Hung          8 /4 /1995      8
+CNTT17    17150134  Tran Thi Huyen           9 /4 /1995      8
+CNTT17    17150188  Vu Minh Hieu             10/11/1999      8
+CNTT17    17150140  Tran Khanh Tung          4 /5 /1999      7
+CNTT15    17150144  Dao Thi Bich Ngoc        9 /9 /1995      6
+CNTT16    17150143  Nguyen Xuan Phuc         5 /6 /1999      6
+CNTT16    17150156  Nguyen Thi Lan           8 /8 /1998    5.7
+CNTT11    17150153  Tran Minh Dat            10/4 /1993     10
+CNTT14    17150157  Nguyen Thi Thuy Duong    10/5 /1999      8
+CNTT16    17150158  Dang Thi Ngoc            5 /4 /1995      7
+CNTT15    17150159  Pham Ngoc Bai            3 /4 /1996      3
+CNTT16    17150145  Nguyen Thi Loan          30/4 /1999    7.7
+CNTT15    17150132  Kim Thi Ngan             4 /9 /1999      9
