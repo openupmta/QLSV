@@ -68,12 +68,17 @@ void insertInList(List& list, int k, DataType x);
 
 
 //Cac thao tac xoa
+int phimDiChuyen(int c, int choice, int line);
 void chuanHoaDauCuoi(string& str);
 void xoaKhoangTrang(string& str);
 void DelHead(List& list);
 void DelTail(List& list);
 void DelInList(List& list, int k);
 void display(List list);
+void display2(List list, float trang);
+void displayInit();
+void display1(List list, int stt);
+
 void input(List& list);
 void output(const char* fileName, List list);
 void inText(List list);
@@ -88,7 +93,48 @@ void menuChinh(int choice);
 void menuM1(int choice);
 void khungThongKe();
 void chonM4_5(List list);
-void display2(List list, float trang);
+
+void sapXepDiemTB(List& list, DataType x);
+void sapXepML(List& list, DataType x);
+void sapXepMSV(List& list, DataType x);
+void sapXepNS(List& list, DataType x);
+void sapXepHoTen(List& list, DataType x);
+
+void inThongKe(ThongKe tk[], int count);
+void kiemTraDiem(float diem, int& xuat_sac, int& gioi, int& kha, int& TB, int& yeu, int& soSV);
+void timHocLucSV(List list);
+void thongKe(List list);
+int binarySearch(List& l1, DataType arr[], float from, float to, int left1) ;
+void timKiemDiem(List list, float from, float to, List& temp, int& temp1);
+void timKiemMSV(List list, char* x, List& temp, int& temp1);
+void timKiemHoTen(List list, string x, List& temp, int& temp1);
+void timKiemTheoNgaySinh(List list, string x, List& temp, int& temp1);
+void timKiemMaLop(List list, string x, List& temp, int& stt1);
+
+void menuChinh(int choice);
+void menuM1(int choice);
+void menuM3_2(int choice);
+void menuM3_1(int choice);
+void menuM4_2(int choice);
+void menuM4_1(int choice);
+void backgroundDS();
+void backgroundMenu();
+void background();
+
+void khungThongKe();
+void bubbleSort(List& list);
+void insertSort(List& list);
+void quickSort(List& list, Node* low, Node* high, int left, int right);
+int compareDiem(DataType data1, DataType data3);
+int compareMSV(DataType data1, DataType data3);
+int compareNS(DataType data1, DataType data3);
+int compareHT(DataType data1, DataType data3);
+
+void chonM1(List& list);
+void chonM2(List& list);
+void chonM3(List& list);
+void chonM4(List list);
+void chonM5(List list);
 
 // TODO: add headers that you want to pre-compile here
 #endif //PCH_H

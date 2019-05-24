@@ -5,8 +5,8 @@ int stt = 0; // Số thứ tự sinh viên trong danh sách
 int i = 0;  //i là bước nhảy dòng trong DS ứng vs sinh viên
 DataType sv[N];
 using namespace std;
-
-void SetSizeConsole() // thay doi kich thuoc man hinh co the noi tren win 7 hoac 8 do khong cho phep thay doi kick thuoc Console
+// thay doi kich thuoc man hinh co the noi tren win 7 hoac 8 do khong cho phep thay doi kick thuoc Console
+void SetSizeConsole() 
 {
 	HANDLE h;
 	h = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -19,13 +19,15 @@ void SetSizeConsole() // thay doi kich thuoc man hinh co the noi tren win 7 hoac
 	COORD bufferSize = { cRong, cCao };
 	SetConsoleScreenBufferSize(h, bufferSize);
 }
+
+//Ham thay doi mau 
 void setColor(int x)
 {
 	HANDLE h;
 	h = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(h, x);
 }
-
+//Toa do x y 
 void gotoxy(int x, int y)
 {
 	HANDLE h;
@@ -33,13 +35,14 @@ void gotoxy(int x, int y)
 	COORD c = { x, y };
 	SetConsoleCursorPosition(h, c);
 }
+//Tao rong list
 void Init(List& list)
 {
 	list.head = NULL;
 	list.tail = NULL;
 	n = 0;
 }
-
+//Khoi tao 1 Node
 Node* creatNode(DataType x)
 {
 	Node* temp = new Node;
@@ -52,12 +55,13 @@ Node* creatNode(DataType x)
 	}
 	return temp;
 }
-
+//Kiem tra rong
 bool isEmpty(List list)
 {
 	if (list.head == NULL) return true;
 	return false;
 }
+//Chen dau
 void addHead(List & list, DataType x)
 {
 	/*
@@ -88,6 +92,7 @@ void addHead(List & list, DataType x)
 	n++;
 
 }
+//Chen cuoi 
 void addTail(List & list, DataType x)
 {
 	/*
@@ -115,9 +120,8 @@ void addTail(List & list, DataType x)
 			i = 0;
 		}
 	}
-
-
 }
+//Chen Vao Vi Tri bat ki
 void insertInList(List & list, int k, DataType x)
 {
 	/*
@@ -292,6 +296,7 @@ void sapXepNS(List & list, DataType x)
 	}
 	insertInList(list, count, x);
 }
+//tach ho ten va ten dem 
 void tachName(string s1, string & firstName, string & midName, string & lastName)
 {
 	int length = s1.length();
@@ -602,7 +607,7 @@ void timKiemHoTen(List list, string x, List & temp, int& temp1)
 	}
 	temp1 = count;
 }
-void tim_kiem_theo_NS(List list, string x, List & temp, int& temp1)
+void timKiemTheoNgaySinh(List list, string x, List & temp, int& temp1)
 {
 	int count = 0;
 	Node* i = list.head;
@@ -2348,7 +2353,7 @@ loop:backgroundMenu();
 	int stt1 = 0;
 	int temp = stt;
 	int temp_i = i;
-	tim_kiem_theo_NS(list, x, l1, stt1);
+	timKiemTheoNgaySinh(list, x, l1, stt1);
 	stt = temp;
 	i = temp_i;
 
